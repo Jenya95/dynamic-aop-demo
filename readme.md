@@ -18,7 +18,8 @@ If in [application.properties](src/main/resources/application.properties)
 
 You will see log
 ```
-2020-08-25 14:26:32.732  INFO 24102 --- [           main] c.i.s.p.service.one.ServiceOne           : ServiceOne worked
-Intercepted  co.il.sanevich.pointcutdynamic.service.two.doJob
-2020-08-25 14:26:32.737  INFO 24102 --- [           main] c.i.s.p.service.two.ServiceTwo           : ServiceTwo worked
+2020-08-25 14:50:18.691  INFO 25040 --- [           main] c.i.s.p.service.one.ServiceOne           : ServiceOne worked
+2020-08-25 14:50:18.695  INFO 25040 --- [           main] c.i.s.p.service.one.ServiceOneExtra      : ServiceOneExtra worked
+Intercepted  co.il.sanevich.pointcutdynamic.service.two.ServiceTwo.doJob
+2020-08-25 14:50:18.699  INFO 25040 --- [           main] c.i.s.p.service.two.ServiceTwo           : ServiceTwo worked
 ```
