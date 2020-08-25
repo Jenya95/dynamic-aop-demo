@@ -5,9 +5,11 @@ If in [application.properties](src/main/resources/application.properties)
 
 You will see log
 ```
-Intercepted  co.il.sanevich.pointcutdynamic.service.one.doJob
-2020-08-25 14:25:58.910  INFO 24091 --- [           main] c.i.s.p.service.one.ServiceOne           : ServiceOne worked
-2020-08-25 14:25:58.914  INFO 24091 --- [           main] c.i.s.p.service.two.ServiceTwo           : ServiceTwo worked
+Intercepted  co.il.sanevich.pointcutdynamic.service.one.ServiceOne.doJob
+2020-08-25 14:47:44.930  INFO 24614 --- [           main] c.i.s.p.service.one.ServiceOne           : ServiceOne worked
+Intercepted  co.il.sanevich.pointcutdynamic.service.one.ServiceOneExtra.doJob
+2020-08-25 14:47:44.934  INFO 24614 --- [           main] c.i.s.p.service.one.ServiceOneExtra      : ServiceOneExtra worked
+2020-08-25 14:47:44.938  INFO 24614 --- [           main] c.i.s.p.service.two.ServiceTwo           : ServiceTwo worked
 ```
 
 If in [application.properties](src/main/resources/application.properties)

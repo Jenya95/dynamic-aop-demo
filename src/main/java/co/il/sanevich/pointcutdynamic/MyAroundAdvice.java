@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class MyAroundAdvice implements MethodInterceptor {
     @Override
     public Object invoke(MethodInvocation invocation) throws Throwable {
-        System.out.println("Intercepted  "+ invocation.getMethod().getDeclaringClass().getPackage().getName() + "." + invocation.getMethod().getName());
+        System.out.println("Intercepted  " + invocation.getMethod().getDeclaringClass().getPackage().getName() + "." + invocation.getMethod().getDeclaringClass().getSimpleName() + "." + invocation.getMethod().getName());
 
         return invocation.proceed();
     }
